@@ -1,17 +1,17 @@
 package com.hanium.firebasetest;
 
 public class User {
-    private String time;
+    private Integer Count;
     private String Volt;
     private String Resistor;
     private String Current;
 
-    public String getTime() {
-        return time;
+    public Integer getCount() {
+        return Count;
     }
 
-    public void setTime(String time) {
-        this.time = time;
+    public void setCount(Integer count) {
+        Count = count;
     }
 
     public String getVolt() {
@@ -38,6 +38,7 @@ public class User {
         Current = current;
     }
 
-    public User(){}
+    public User() {
+    }
 
 }

@@ -10,11 +10,10 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/r_time"
+            android:id="@+id/r_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:text="시간" />
+            android:layout_margin="5dp" />
 
         <TextView
             android:id="@+id/r_volt"

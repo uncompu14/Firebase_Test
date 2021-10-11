@@ -37,7 +37,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
 
     @Override
     public void onBindViewHolder(@NonNull @org.jetbrains.annotations.NotNull CustomAdapter.CustomViewHolder holder, int position) {
-        holder.r_time.setText(arrayList.get(position).getTime());
+        holder.r_count.setText(String.valueOf(arrayList.get(position).getCount()));
         holder.r_volt.setText(arrayList.get(position).getVolt());
         holder.r_current.setText(arrayList.get(position).getCurrent());
         holder.r_resistor.setText(arrayList.get(position).getResistor());
@@ -52,11 +52,11 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
         TextView r_volt;
         TextView r_current;
         TextView r_resistor;
-        TextView r_time;
+        TextView r_count;
 
         public CustomViewHolder(@NonNull @NotNull View itemView) {
             super(itemView);
-            this.r_time = itemView.findViewById(R.id.r_time);
+            this.r_count = itemView.findViewById(R.id.r_count);
             this.r_volt = itemView.findViewById(R.id.r_volt);
             this.r_current = itemView.findViewById(R.id.r_current);
             this.r_resistor = itemView.findViewById(R.id.r_resistor);
