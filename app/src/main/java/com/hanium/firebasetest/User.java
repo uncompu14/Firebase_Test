@@ -2,9 +2,9 @@ package com.hanium.firebasetest;
 
 public class User {
     private Integer Count;
-    private String Volt;
-    private String Resistor;
-    private String Current;
+    private Float Volt;
+    private Float Resistor;
+    private Float Current;
 
     public Integer getCount() {
         return Count;
@@ -14,27 +14,27 @@ public class User {
         Count = count;
     }
 
-    public String getVolt() {
+    public Float getVolt() {
         return Volt;
     }
 
-    public void setVolt(String volt) {
+    public void setVolt(Float volt) {
         Volt = volt;
     }
 
-    public String getResistor() {
+    public Float getResistor() {
         return Resistor;
     }
 
-    public void setResistor(String resistor) {
+    public void setResistor(Float resistor) {
         Resistor = resistor;
     }
 
-    public String getCurrent() {
+    public Float getCurrent() {
         return Current;
     }
 
-    public void setCurrent(String current) {
+    public void setCurrent(Float current) {
         Current = current;
     }
 
